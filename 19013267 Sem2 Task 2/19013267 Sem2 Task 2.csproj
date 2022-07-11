@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>_19013267_Sem2_Task_2</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="19013267_POE_Library">
+      <HintPath>..\..\19013267_POE_Library\19013267_POE_Library\bin\Debug\net5.0\19013267_POE_Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

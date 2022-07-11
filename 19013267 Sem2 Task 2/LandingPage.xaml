@@ -1,0 +1,19 @@
+﻿<Window x:Class="_19013267_Sem2_Task_2.LandingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_19013267_Sem2_Task_2"
+        mc:Ignorable="d"
+        Title="Landing Page" Height="450" Width="800">
+    <Grid>
+        <Label Content="Would you like to Login or Register?" HorizontalAlignment="Center" Margin="0,60,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20" FontFamily="Lato" Height="33" Width="328"/>
+        <Button x:Name="btnReg" Style="{DynamicResource roundButton}" Content="Register" HorizontalAlignment="Left" Margin="208,149,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Click"/>
+        <Button x:Name="btnLogin" Style="{DynamicResource roundButton}" Content="Login" HorizontalAlignment="Left" Margin="499,149,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Click_1"/>
+        <Button x:Name="btnExit" Style="{DynamicResource roundButton}" Content="Exit" HorizontalAlignment="Center" Margin="0,364,0,0" VerticalAlignment="Top" Height="35" Width="100" Click="btnExit_Click"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="N:\Visual Studio Program Files\19013267 Sem2 Task 2\19013267 Sem2 Task 2\Images\bg.jpg"/>
+        </Grid.Background>
+
+    </Grid>
+</Window>
